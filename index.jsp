@@ -97,7 +97,8 @@ _________________________________________________________ -->
 								class="email" data-animate-hover="pulse"><i
 								class="fa fa-envelope"></i></a>
 						</div>
-						<c:if test="1==2">
+						<c:set var="subbu" value="16" />
+						<c:if test="${subbu > 10}">
 							<div class="login">
 								<a href="#" data-toggle="modal" data-target="#login-modal"><i
 									class="fa fa-sign-in"></i> <span
